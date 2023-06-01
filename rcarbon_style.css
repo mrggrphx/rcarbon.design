@@ -1,0 +1,403 @@
+    /*GERAL*/
+
+    *{margin: 0; padding: 0;}
+
+    h2{font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 95px;
+        padding-bottom: 95px;}
+
+    h3{font-family: 'Roboto', sans-serif;
+        font-weight: 700;}
+
+    p{font-family: 'Roboto', sans-serif;
+        font-weight: 400;}
+
+    div{ align-content: center;
+         display: flex;
+         justify-content: space-between;}
+
+    /*NAVEGAÇÃO*/
+
+    button {
+      font-size: 18px;
+      color: #e1e1e1;
+      font-family: inherit;
+      font-weight: 800;
+      cursor: pointer;
+      position: relative;
+      border: none;
+      background: none;
+      text-transform: uppercase;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 400ms;
+      transition-property: color;
+
+    }
+
+    button:focus,
+    button:hover {
+      color: #fff;
+    }
+
+    button:focus:after,
+    button:hover:after {
+      width: 100%;
+      left: 0%;
+    }
+
+    button:after {
+      content: "";
+      pointer-events: none;
+      bottom: -2px;
+      left: 50%;
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      background-color: #fff;
+      transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+      transition-duration: 400ms;
+      transition-property: width, left;
+    }
+
+    body{ background-color: gray;  color: white;}
+
+
+    header{ height: 100px;  background-color: #242424;}
+
+
+    ul {width: 500px;  display: flex;  justify-content: space-between;  list-style: none;}
+
+
+    nav a{ display: flex;  text-decoration: none;  align-content: center;  color: white;  font-family: 'Roboto', sans-serif;  font-weight: 700; font-size: 14px;}
+
+
+    nav  { display: flex;  justify-content: space-between; align-items: center; margin: auto;  width: 100%; height: 100px;  position: fixed; background-color:  #242424;  background: rgba(0,0,0,.8);   backdrop-filter: blur(15px); z-index: 1; }
+
+
+    .navegacao{ width: 1140px; display: flex; justify-content: space-between;  margin: auto; align-items: center;}
+
+
+ 
+    /* MAIN */
+
+    /* Geral */
+
+    section p {font-size: 13px;}
+ 
+    section div{width: 1140px;  margin: auto; display: flex;}
+
+    img{ padding-bottom: 15px;  padding-top: 15px;}
+
+    #background{background-color: #0c0c26; height: 600px;} 
+
+    .background{ width: 100%;  margin: auto; justify-content: space-between}
+
+
+    /* Sessão Motion Design */
+
+    #motiondesign{background-color: #ff6600;  height: 725px;  justify-content: space-between; padding-top: 80px;}
+
+    .mf {width: 310px;  display: grid;  text-align: center; margin-left: 0;}
+
+    .mf p{text-align: left;}
+
+        .mfi{width: 310px; top: 50%; left: 50%; transform: translate(-50% -50%); overflow: hidden;}
+        
+        .mfi img{width: 100%; transition: 0.3s all ease-in-out;}
+        
+        .mfi:hover img{transform: scale(1.1)}
+
+
+    .m3d{width: 310px;  display: grid;  text-align: center; } 
+
+    .m3d p{text-align: left;}
+
+        .m3di{width: 310px; top: 50%; left: 50%; transform: translate(-50% -50%); overflow: hidden;}
+        
+        .m3di img{width: 100%; transition: 0.3s all ease-in-out;}
+        
+        .m3di:hover img{transform: scale(1.1)}
+
+
+    .crr{width: 310px;  display: grid;  text-align: center; margin-right: 0;}
+
+    .crr p{text-align: left;}
+
+        .crri{width: 310px; top: 50%; left: 50%; transform: translate(-50% -50%); overflow: hidden;}
+        
+        .crri img{width: 100%; transition: 0.3s all ease-in-out;}
+        
+        .crri:hover img{transform: scale(1.1)}
+
+
+    /* Sessão Comunicação visual */
+
+    #comunicacaovisual{background-color: #cc3300;  height: 725px; justify-content: space-between; padding-top: 80px;}
+
+    .pl {width: 310px;  display: grid;  text-align: center;  margin-left: 0;}
+
+    .pl p{text-align: left;}
+
+        .pli{width: 310px; top: 50%; left: 50%; transform: translate(-50% -50%); overflow: hidden;}
+        
+        .pli img{width: 100%; transition: 0.3s all ease-in-out;}
+        
+        .pli:hover img{transform: scale(1.1)}
+
+
+    .lc {width: 310px;  display: grid;  text-align: center;}
+
+    .lc p{text-align: left;}
+
+        .lci{width: 310px; top: 50%; left: 50%; transform: translate(-50% -50%); overflow: hidden;}
+        
+        .lci img{width: 100%; transition: 0.3s all ease-in-out;}
+        
+        .lci:hover img{transform: scale(1.1)}
+
+
+
+    .en {width: 310px;  display: grid;  text-align: center; margin-right: 0; margin-bottom: 15px;}
+
+    .en p{text-align: left;}
+
+        .eni{width: 310px; top: 50%; left: 50%; transform: translate(-50% -50%); overflow: hidden;}
+        
+        .eni img{width: 100%; transition: 0.3s all ease-in-out;}
+        
+        .eni:hover img{transform: scale(1.1)}
+
+
+
+    /* Sessão Galeria */
+
+    #galeria{background-color: black; padding-top: 80px; margin: auto;  text-align: center;}
+
+    #galeria h3{margin-bottom: 15px;}
+
+    #galeria div{display: flex; justify-content: space-between; margin: auto;}
+ 
+
+    /*FOOTER*/
+
+    /* Sessão Contato */
+
+    #contato{ background-color: #000000;  height: 450px;  margin: auto; width: 100%;}
+
+    #contato p {background-color: #25D366; width: 400px; text-align: center; margin: auto; padding: 30px}
+
+    .zap a { font-family: 'Roboto', sans-serif;  color: white; text-decoration: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+    /* RESPONSIVIDADE - 1169px a 768px */
+
+    @media (max-width: 1169px){
+
+
+    /*  menu  */
+
+
+    ul {width: 400px;}
+
+    nav a{ font-size: 12px;}
+
+    .navegacao{ width: 880px;}
+
+    .rcarbonlogo{width: 95px; height: 95px;}
+
+
+    /* MAIN */
+
+    #background{background-color: #0c0c26; height:420px;}
+        
+    section div{width: 880px;}
+
+
+    /* Sessão Motion Design */
+
+    #motiondesign{background-color: #ff6600;  height:600px; padding-top: 50px; padding-bottom: 20px;}
+
+    .mf{width: 237px;}
+
+    .mf img {width: 237px; height: 270px;}
+
+    .mf p{font-size: 10px;} 
+        
+        
+    .m3d{width: 237px;}
+        
+    .m3d img{width: 237px; height: 270px;}
+        
+    .m3d p{font-size: 10px;}
+        
+        
+    .crr{width: 237px;}
+    
+    .crr img{width: 237px; height: 270px;}
+    
+    .crr p{font-size: 10px;}
+        
+
+    /* Sessão Comunicação visual */
+
+    #comunicacaovisual{background-color: #cc3300;  height: 600px; padding-top: 50px; padding-bottom: 20px;}
+    
+    .pl{width: 237px;}
+
+    .pl img{width: 237px; height: 270px;}
+        
+    .pl p{font-size: 10px;}
+        
+        
+    .lc{width: 237px;}
+
+    .lc img{width: 237px; height: 270px;}
+        
+    .lc p{font-size: 10px;}
+        
+        
+    .en{width: 237px;}  
+
+    .en img{width: 237px; height: 270px;}
+    
+    .en p{font-size: 10px;}
+        
+        
+    /* Sessão Galeria */
+
+    #galeria{padding-top: 50px;}
+
+    #galeria video{width: 160px;}
+        
+    #galeria img{width: 250px;}
+
+        
+        
+    /*FOOTER*/
+
+    /* Sessão Contato */
+
+    #contato{height: 400px;}
+
+    #contato p {width: 350px; padding: 30px}
+    }
+
+
+
+
+
+
+
+
+
+
+    /* RESPONSIVIDADE - 768px */
+
+    @media (max-width: 768px){
+
+
+    /*  menu  */
+
+    nav a{font-size: 10px;}
+        
+    ul {width: 300px; }
+
+    .navegacao{ width:400px;}
+        
+    .rcarbonlogo{width: 75px; height: 75px;}
+
+
+    /* MAIN */
+
+    #background{background-color: #0c0c26; height:200px;}
+        
+    section div{width: 400px;}
+        
+    #motiondesign div{width: 310px;  flex-direction: column;}
+        
+    #comunicacaovisual div{width: 310px;  flex-direction: column;}
+
+
+    /* Sessão Motion Design */
+
+    #motiondesign{background-color: #ff6600;  height:1650px; width: 100%; padding-top: 50px; padding-bottom: 20px; margin: auto; align-items: center;}
+
+    .mf{width: 310px; margin: auto;}
+
+    .mf img {width: 310px; height: 350px;}
+
+    .mf p{font-size: 12px;} 
+        
+        
+    .m3d{width: 310px; margin: auto; margin-top: 20px;}
+        
+    .m3d img{width: 310px; height: 350px;}
+        
+    .m3d p{font-size: 12px;}
+        
+        
+    .crr{width: 310px; margin: auto; margin-top: 20px;}
+    
+    .crr img{width: 310px; height: 350px;}
+    
+    .crr p{font-size: 12px;}
+        
+
+    /* Sessão Comunicação visual */
+
+    #comunicacaovisual{background-color: #cc3300;  height: 1650px; padding-top: 50px; padding-bottom: 20px; margin: auto; align-items: center;}
+    
+    .pl{width: 310px; margin: auto;}
+
+    .pl img{width: 310px; height: 350px;}
+        
+    .pl p{font-size: 12px;}
+        
+        
+    .lc{width: 310px; margin: auto; margin-top: 20px;}
+
+    .lc img{width: 310px; height: 350px;}
+        
+    .lc p{font-size: 12px;}
+        
+        
+    .en{width: 310px; margin: auto; margin-top: 20px;}  
+
+    .en img{width: 310px; height: 350px;}
+    
+    .en p{font-size: 12px;}
+        
+        
+    /* Sessão Galeria */
+
+    #galeria{padding-top: 50px; }
+        
+    #galeria div{width: 400px; flex-direction: column;  margin: auto; align-items: center;}
+        
+    #galeria img{width: 200px;}
+        
+        
+    /*FOOTER*/
+
+    /* Sessão Contato */
+     
+    #contato a{font-size: 14px;}
+
+    #contato p {width: 250px; padding: 25px;}
+    }
+
+
+
+
